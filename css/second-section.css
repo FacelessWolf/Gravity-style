@@ -1,0 +1,35 @@
+@charset "UTF-8";
+/* Начало CSS стилей second-section */
+.second-section {
+  margin-top: 5%;
+}
+
+.row-2-1 {
+  height: 25%;
+}
+
+.row-2-2 {
+  height: 75%;
+}
+
+.offer-3__title {
+  margin-top: 30px;
+}
+
+.service-menu-1 {
+  margin-top: 60px;
+}
+
+.service-menu-2 {
+  margin-top: 60px;
+}
+
+.service-menu__item {
+  margin-bottom: 30px;
+}
+
+.services-carousel__append {
+  margin-top: 10px;
+}
+
+/* Конец CSS стилей second-section */

@@ -1,0 +1,71 @@
+@charset "UTF-8";
+/* Начало CSS стилей body и тегов */
+body {
+  font-family: "Fira Sans", sans-serif;
+  color: #222222;
+  max-width: 1920px;
+}
+
+a {
+  display: block;
+}
+
+h1 {
+  font-weight: 700;
+  font-size: 60px;
+  line-height: 1.2em;
+  letter-spacing: -0.01em;
+  color: #151515;
+}
+
+h2 {
+  font-weight: 600;
+  font-size: 38px;
+  line-height: 1.1em;
+}
+
+h4 {
+  font-weight: 600;
+  font-size: 18px;
+  line-height: 1.1em;
+  text-transform: uppercase;
+  letter-spacing: 0.08em;
+}
+
+h5 {
+  text-transform: uppercase;
+  letter-spacing: 0.2em;
+  font-size: 14px;
+  font-weight: 600;
+  opacity: 0.8;
+}
+
+p {
+  opacity: 0.8;
+  font-size: 16px;
+  line-height: 1.2em;
+}
+
+ul, li {
+  font-size: 18px;
+}
+
+.all-btn {
+  font-weight: 500;
+  font-size: 14px;
+  line-height: 24px;
+  text-align: center;
+  letter-spacing: 0.2em;
+  text-transform: uppercase;
+  color: #FFFFFF;
+  padding: 15px 0;
+  width: 190px;
+  background: #3726F2;
+  transition: 0.5s ease;
+}
+
+.container, .row {
+  height: 100%;
+}
+
+/* Конец CSS стилей body и тегов */

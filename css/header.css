@@ -1,0 +1,95 @@
+@charset "UTF-8";
+/* Начало CSS стилей header */
+header {
+  height: 100%;
+}
+
+.row-1 {
+  height: 5%;
+  margin-top: 30px;
+}
+
+.row-2 {
+  height: 10%;
+}
+
+.row-3 {
+  height: 80%;
+}
+
+.a-tel {
+  text-align: center;
+  color: #000;
+}
+
+.a-tel p {
+  font-size: 24px;
+}
+
+.a-menu, .a-menu.active, .a-menu:hover {
+  font-size: 24px;
+  color: #000;
+}
+
+.header-menu {
+  margin-top: 10px;
+  display: none;
+}
+
+.header-menu.active {
+  display: block;
+}
+
+.header-menu__list {
+  margin-top: 10px;
+}
+
+.header-menu__link {
+  height: 50%;
+}
+
+.header-menu__link a {
+  color: #000;
+  height: 100%;
+}
+
+.offer-main {
+  margin-top: 70px;
+}
+
+.offer-main__subtitle {
+  margin-top: 30px;
+}
+
+.offer-main__btn {
+  margin-top: 50px;
+}
+
+.offer-main__img {
+  background: url("../img/img1.jpg") no-repeat center center;
+  width: 100%;
+  height: 100%;
+  position: relative;
+}
+
+.a-video {
+  background: transparent url("../img/video.jpg") no-repeat center center;
+  width: 50%;
+  height: 35%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  position: absolute;
+  top: 60%;
+  left: -33%;
+}
+
+.a-video:after {
+  content: " ";
+  display: block;
+  background: url("../img/play.svg");
+  width: 65px;
+  height: 65px;
+}
+
+/* Конец CSS стилей header */

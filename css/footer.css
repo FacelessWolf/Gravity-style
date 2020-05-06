@@ -1,0 +1,19 @@
+@charset "UTF-8";
+/* Начало CSS стилей footer */
+footer {
+  margin-top: 5%;
+}
+
+.footer-wrapper {
+  background: #515151;
+  height: 100%;
+  padding: 20px 0;
+}
+
+.footer-logo {
+  font-size: 48px;
+  color: #fff;
+  margin: 0 auto;
+}
+
+/* Конец CSS стилей footer */

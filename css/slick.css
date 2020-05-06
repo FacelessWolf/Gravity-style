@@ -1,0 +1,61 @@
+@charset "UTF-8";
+/* Слайдер */
+.slick-slider.services-carousel {
+  margin-top: 40px;
+  height: 70%;
+}
+
+.slick-slider.testimonials-offer-carousel {
+  height: 90%;
+}
+
+.slick-slider.testimonials-img-carousel {
+  height: 90%;
+}
+
+/* Слайдер запущен */
+/* Слайдер с точками */
+/* Ограничивающая оболочка */
+.slick-list {
+  overflow: hidden;
+  height: 100%;
+  width: 100%;
+}
+
+/* Лента слайдов */
+.slick-track {
+  display: flex;
+  height: 100%;
+}
+
+/* Слайд */
+.slick-slide img {
+  width: 100%;
+}
+
+/* Слайд активный (показывается) */
+/* Слайд основной */
+/* Слайд по центру */
+/* Клонированный слайд */
+/* Стрелка */
+.slick-arrow {
+  font-size: 0;
+  width: 50px;
+  height: 50px;
+}
+
+/* Стрелка влево */
+.slick-arrow.slick-prev {
+  background: url("../img/left.svg") 0 0/100% no-repeat;
+  margin-right: 10px;
+}
+
+/* Стрелка вправо */
+.slick-arrow.slick-next {
+  background: url("../img/right.svg") 0 0/100% no-repeat;
+}
+
+/* Стрелка не активная */
+/* Точки (булиты) */
+/* Активная точка */
+/* Элемент точки */

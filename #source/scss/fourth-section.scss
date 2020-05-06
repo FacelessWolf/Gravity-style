@@ -1,0 +1,63 @@
+/* Начало CSS стилей fourth-section */
+
+.fourth-section {
+	margin-top: 5%;
+}
+
+.row-4-1 {
+	height: 17%;
+}
+
+.row-4-2 {
+	height: 75%;
+	margin-top: 30px;
+}
+
+.row-4-3 {
+	height: 8%;
+}
+
+.offer-5 {}
+
+.offer-5__label {}
+
+.offer-5__title {
+	margin-top: 30px;
+}
+
+.works-menu-1 {
+	padding-top: 70px;
+}
+
+.works-menu__item {}
+
+.works-img {
+	flex-wrap: wrap;
+}
+
+.works-img__item {
+	margin-bottom: 40px;
+	width: 350px;
+}
+
+.works-img__item img {
+	transition: 0.5s ease;
+	width: 100%;
+}
+
+.works-img__item:hover img {
+	-moz-transform: scale(1.05) translate(0px, -15px);
+	-webkit-transform: scale(1.05) translate(0px, -15px);
+	-o-transform: scale(1.05) translate(0px, -15px);
+	-ms-transform: scale(1.05) translate(0px, -15px);
+	transform: scale(1.05) translate(0px, -15px);
+}
+
+.works-info {}
+
+.works-info__btn {
+	width: 222px;
+	height: 50px;
+}
+
+/* Конец CSS стилей fourth-section */
